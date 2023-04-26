@@ -2,6 +2,9 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://space.linchao.tk//categories/</loc></url><url>
-            <loc>https://space.linchao.tk//tags/</loc></url><url>
-            <loc>https://space.linchao.tk//</loc></url></urlset>
+            <loc>https://space.linchao.tk//posts/mergesort/</loc><lastmod>2023-04-21T11:30:46&#43;08:00</lastmod></url><url>
+            <loc>https://space.linchao.tk//posts/</loc><lastmod>2023-04-21T11:30:46&#43;08:00</lastmod></url><url>
+            <loc>https://space.linchao.tk//tags/</loc><lastmod>2023-04-21T11:30:46&#43;08:00</lastmod></url><url>
+            <loc>https://space.linchao.tk//</loc><lastmod>2023-04-21T11:30:46&#43;08:00</lastmod></url><url>
+            <loc>https://space.linchao.tk//tags/%E7%AE%97%E6%B3%95/</loc><lastmod>2023-04-21T11:30:46&#43;08:00</lastmod></url><url>
+            <loc>https://space.linchao.tk//categories/</loc></url></urlset>

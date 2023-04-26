@@ -1,11 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>我的全新 Hugo 网站</title>
-        <link>https://space.linchao.tk//</link>
-        <description>每个人</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 21 Apr 2023 11:30:46 &#43;0800</lastBuildDate>
-            <atom:link href="https://space.linchao.tk//index.xml" rel="self" type="application/rss+xml" />
-        <item>
+        <title>All Posts - 我的全新 Hugo 网站</title>
+        <link>https://space.linchao.tk//posts/</link>
+        <description>All Posts | 我的全新 Hugo 网站</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 21 Apr 2023 11:30:46 &#43;0800</lastBuildDate><atom:link href="https://space.linchao.tk//posts/" rel="self" type="application/rss+xml" /><item>
     <title>MergeSort</title>
     <link>https://space.linchao.tk//posts/mergesort/</link>
     <pubDate>Fri, 21 Apr 2023 11:30:46 &#43;0800</pubDate>
