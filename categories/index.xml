@@ -1,7 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Categories - Category - 我的全新 Hugo 网站</title>
-        <link>https://space.linchao.tk//categories/</link>
-        <description>Categories - Category - 我的全新 Hugo 网站</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://space.linchao.tk//categories/" rel="self" type="application/rss+xml" /></channel>
+        <title>Categories - Category - 每个人都有需要安静的时候</title>
+        <link>https://space.linchao.tk/categories/</link>
+        <description>Categories - Category - 每个人都有需要安静的时候</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>linchao87@gmail.com (看热闹的咸鱼)</managingEditor>
+            <webMaster>linchao87@gmail.com (看热闹的咸鱼)</webMaster><atom:link href="https://space.linchao.tk/categories/" rel="self" type="application/rss+xml" /></channel>
 </rss>

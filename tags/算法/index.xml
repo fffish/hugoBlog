@@ -1,14 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>算法 - Tag - 我的全新 Hugo 网站</title>
-        <link>https://space.linchao.tk//tags/%E7%AE%97%E6%B3%95/</link>
-        <description>算法 - Tag - 我的全新 Hugo 网站</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 21 Apr 2023 11:30:46 &#43;0800</lastBuildDate><atom:link href="https://space.linchao.tk//tags/%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
+        <title>算法 - Tag - 每个人都有需要安静的时候</title>
+        <link>https://space.linchao.tk/tags/%E7%AE%97%E6%B3%95/</link>
+        <description>算法 - Tag - 每个人都有需要安静的时候</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>linchao87@gmail.com (看热闹的咸鱼)</managingEditor>
+            <webMaster>linchao87@gmail.com (看热闹的咸鱼)</webMaster><lastBuildDate>Fri, 21 Apr 2023 11:30:46 &#43;0800</lastBuildDate><atom:link href="https://space.linchao.tk/tags/%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
     <title>MergeSort</title>
-    <link>https://space.linchao.tk//posts/mergesort/</link>
+    <link>https://space.linchao.tk/posts/mergesort/</link>
     <pubDate>Fri, 21 Apr 2023 11:30:46 &#43;0800</pubDate>
     <author>看热闹的咸鱼</author>
-    <guid>https://space.linchao.tk//posts/mergesort/</guid>
+    <guid>https://space.linchao.tk/posts/mergesort/</guid>
     <description><![CDATA[1. 什么是归并排序 归并排序是一种基于分治思想的排序算法，它将待排序的序列不断二分，分别排序，然后将两个有序序列合并成一个有序序列。具体实现可以]]></description>
 </item>
 </channel>

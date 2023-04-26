@@ -1,14 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Tags - Tag - 我的全新 Hugo 网站</title>
-        <link>https://space.linchao.tk//tags/</link>
-        <description>Tags - Tag - 我的全新 Hugo 网站</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 21 Apr 2023 11:30:46 &#43;0800</lastBuildDate><atom:link href="https://space.linchao.tk//tags/" rel="self" type="application/rss+xml" /><item>
+        <title>Tags - Tag - 每个人都有需要安静的时候</title>
+        <link>https://space.linchao.tk/tags/</link>
+        <description>Tags - Tag - 每个人都有需要安静的时候</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>linchao87@gmail.com (看热闹的咸鱼)</managingEditor>
+            <webMaster>linchao87@gmail.com (看热闹的咸鱼)</webMaster><lastBuildDate>Fri, 21 Apr 2023 11:30:46 &#43;0800</lastBuildDate><atom:link href="https://space.linchao.tk/tags/" rel="self" type="application/rss+xml" /><item>
     <title>算法</title>
-    <link>https://space.linchao.tk//tags/%E7%AE%97%E6%B3%95/</link>
+    <link>https://space.linchao.tk/tags/%E7%AE%97%E6%B3%95/</link>
     <pubDate>Fri, 21 Apr 2023 11:30:46 &#43;0800</pubDate>
     <author>看热闹的咸鱼</author>
-    <guid>https://space.linchao.tk//tags/%E7%AE%97%E6%B3%95/</guid>
+    <guid>https://space.linchao.tk/tags/%E7%AE%97%E6%B3%95/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

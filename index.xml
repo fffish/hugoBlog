@@ -1,16 +1,39 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>我的全新 Hugo 网站</title>
-        <link>https://space.linchao.tk//</link>
-        <description>每个人</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 21 Apr 2023 11:30:46 &#43;0800</lastBuildDate>
-            <atom:link href="https://space.linchao.tk//index.xml" rel="self" type="application/rss+xml" />
+        <title>每个人都有需要安静的时候</title>
+        <link>https://space.linchao.tk/</link>
+        <description>个人博客</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>linchao87@gmail.com (看热闹的咸鱼)</managingEditor>
+            <webMaster>linchao87@gmail.com (看热闹的咸鱼)</webMaster><lastBuildDate>Wed, 26 Apr 2023 16:30:45 &#43;0800</lastBuildDate>
+            <atom:link href="https://space.linchao.tk/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>MySQL5.7忘记root密码如何重置</title>
+    <link>https://space.linchao.tk/posts/mysql_reset_passwd/</link>
+    <pubDate>Wed, 26 Apr 2023 16:30:45 &#43;0800</pubDate>
+    <author>看热闹的咸鱼</author>
+    <guid>https://space.linchao.tk/posts/mysql_reset_passwd/</guid>
+    <description><![CDATA[<ol>
+<li>
+<p>修改配置文件并重启:</p>
+<pre tabindex="0"><code class="language-linux" data-lang="linux">[root@localhost ~]# vi /etc/my.cnf
+</code></pre><p>在[mysqld]添加一行</p>
+<pre tabindex="0"><code>skip-grant-tables
+</code></pre><p>重启服务</p>
+<pre tabindex="0"><code class="language-linux" data-lang="linux">[root@localhost ~]# systemctl restart mysqld
+</code></pre></li>
+<li>
+<p>进入mysql修改root密码：</p>
+<pre tabindex="0"><code>[root@localhost ~]# mysql -uroot
+mysql&gt; update mysql.user set authentication_string=password(&#39;newPassWord!123&#39;) where user=&#39;root&#39; and host=&#39;localhost&#39;;
+</code></pre></li>
+</ol>]]></description>
+</item>
+<item>
     <title>MergeSort</title>
-    <link>https://space.linchao.tk//posts/mergesort/</link>
+    <link>https://space.linchao.tk/posts/mergesort/</link>
     <pubDate>Fri, 21 Apr 2023 11:30:46 &#43;0800</pubDate>
     <author>看热闹的咸鱼</author>
-    <guid>https://space.linchao.tk//posts/mergesort/</guid>
+    <guid>https://space.linchao.tk/posts/mergesort/</guid>
     <description><![CDATA[1. 什么是归并排序 归并排序是一种基于分治思想的排序算法，它将待排序的序列不断二分，分别排序，然后将两个有序序列合并成一个有序序列。具体实现可以]]></description>
 </item>
 </channel>
